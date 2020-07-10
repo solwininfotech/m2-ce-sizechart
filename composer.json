@@ -1,0 +1,22 @@
+{
+    "name": "solwin/sizechart",
+    "description": "Size Chart – Magento® 2 extension which will allow the admin to easily add new size chart image from the admin and each size chart can be assigned to product separately.",
+    "type": "magento2-module",
+    "version": "2.0.9",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\Sizechart\\": ""
+        }
+    }
+}
